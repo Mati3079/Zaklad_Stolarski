@@ -1,70 +1,104 @@
 <!DOCTYPE html>
 <html lang="pl-PL">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zakład Stolarski</title>
-    <link rel="stylesheet" href="styl.css">
-</head>
-<body>
+    <link rel="stylesheet" href="styl.css" />
+    <link rel="shortcut icon" href="icona.jpg" type="image/x-icon">
+  </head>
+  <body>
     <section class="banner">
-        <H1>Zakład Stolarski - New ferniture</H1>
+      <h1>Zakład Stolarski - New ferniture</h1>
     </section>
+    
+    <div id="flyoutMenu">
+            <h2><a href="Głowna.html">Strona Główna</a></h2>
+            <h2><a href="Forumlarz.html">Formularz Zamówienia</a></h2>
+            <h2><a href="Forumlarz.html">Przykładowe Nasze Prace</a></h2>
+        </div>
     <section class="menu">
-        <a href="Fromularz.html" target="_blank">Formularz Zamówienia Mebli</a>
-        <a href="Prace.html" target="_blank">Przykładowe Prace wykonane przez Nas</a>
+        <button id="round"></button>
+
     </section>
     <section class="main">
-        <h1>Cennik usług wykonywanych:</h1>
-        <div id="tabela">
-            <div class="produkt">
-            <div class="nazwa"><h3>Schody drewniane samonośne</h3></div>
-            <div class="cena">2890zł</div>
-            <ul class="opis">
-                <li>Wysokiej jakości Drewno</li>
-                <li>Solidna konstrukcja</li>
-                <li>Wykonana Zogodnie z Wymaganiami Klienta</li>
-            </ul>
-            </div>
-            <div class="produkt">
-                <div class="nazwa"><h3>Meble Kuchenne</h3></div>
-                <div class="cena">1750zł</div>
-                <ul class="opis">
-                    <li>Wysokiej jakości Drewno</li>
-                    <li>Nowoczesny Wygląd</li>
-                    <li>Wykonane Zgodnie z Wymaganiami Klienta</li>
-                </ul>
-            </div>
-            <div class="produkt">
-                <div class="nazwa"><h3>Drzwi wewnętrzne</h3></div>
-                <div class="cena">1979zł</div>
-                <ul class="opis">
-                    <li>Wysokiej jakości Drewno</li>
-                    <li>Zapewniają Komfort</li>
-                    <li>Wykonana Zogodnie z Wymaganiami Klienta</li>
-                </ul>
-            </div>
-            <div class="produkt">
-                <div class="nazwa"><h3>Fornirowane Meble Biurowe</h3></div>
-                <div class="cena">2199zł</div>
-                <ul class="opis">
-                    <li>Wysokiej jakości Drewno</li>
-                    <li>Solidna konstrukcja</li>
-                    <li>Wykonana Zogodnie z Wymaganiami Klienta</li>
-                </ul>
-            </div>
-            <div class="produkt">
-                <div class="nazwa"><h3>Garderoby</h3></div>
-                <div class="cena">2399zł</div>
-                <ul class="opis">
-                    <li>Wysokiej jakości Drewno</li>
-                    <li>Solidna konstrukcja</li>
-                    <li>Wykonana Zogodnie z Wymaganiami Klienta</li>
-                </ul>
-            </div>
+      <h1>Cennik usług wykonywanych:</h1>
+      <div id="tabela">
+        <div class="produkt">
+          <div class="nazwa"><h3>Schody drewniane samonośne</h3></div>
+          <div class="cena">2899zł</div>
+          <ul class="opis">
+            <li>Wysokiej jakości Drewno</li>
+            <li>Solidna konstrukcja</li>
+            <li>Wykonana Zogodnie z Wymaganiami Klienta</li>
+          </ul>
         </div>
+        <div class="produkt">
+          <div class="nazwa"><h3>Meble Kuchenne</h3></div>
+          <div class="cena">1799zł</div>
+          <ul class="opis">
+            <li>Wysokiej jakości Drewno</li>
+            <li>Nowoczesny Wygląd</li>
+            <li>Wykonane Zgodnie z Wymaganiami Klienta</li>
+          </ul>
+        </div>
+        <div class="produkt">
+          <div class="nazwa"><h3>Drzwi wewnętrzne</h3></div>
+          <div class="cena">1999zł</div>
+          <ul class="opis">
+            <li>Wysokiej jakości Drewno</li>
+            <li>Zapewniają Komfort</li>
+            <li>Wykonana Zogodnie z Wymaganiami Klienta</li>
+          </ul>
+        </div>
+        <div class="produkt">
+          <div class="nazwa"><h3>Fornirowane Meble Biurowe</h3></div>
+          <div class="cena">2199zł</div>
+          <ul class="opis">
+            <li>Wysokiej jakości Drewno</li>
+            <li>Solidna konstrukcja</li>
+            <li>Wykonana Zogodnie z Wymaganiami Klienta</li>
+          </ul>
+        </div>
+        <div class="produkt">
+          <div class="nazwa"><h3>Garderoby</h3></div>
+          <div class="cena">2399zł</div>
+          <ul class="opis">
+            <li>Wysokiej jakości Drewno</li>
+            <li>Solidna konstrukcja</li>
+            <li>Wykonana Zogodnie z Wymaganiami Klienta</li>
+          </ul>
+        </div>
+      </div>
     </section>
     <section class="foot">
-        <p>Strone Przygotował: <a href="https://www.github.com/Mati3079" target="_blank">Mateusz Cieśla</a></p>
+      <p>
+        Strone Przygotował:
+        <a href="https://www.github.com/Mati3079" target="_blank"
+          >Mateusz Cieśla</a
+        >
+      </p>
     </section>
-</body>
+
+    <script>
+        let roundButton = document.querySelector("#round");
+roundButton.addEventListener("click", showMenu, false);
+
+let flyoutMenu = document.querySelector("#flyoutMenu");
+flyoutMenu.addEventListener("click", hideMenu, false);
+
+function showMenu(e) {
+    flyoutMenu.classList.add("show");
+
+    document.body.style.overflow = "hidden";
+}
+
+function hideMenu(e) {
+    flyoutMenu.classList.remove("show");
+	e.stopPropagation();
+
+    document.body.style.overflow = "auto";
+}	
+    </script>
+  </body>
 </html>
