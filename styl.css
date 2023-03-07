@@ -1,0 +1,52 @@
+#tabela
+{
+    display:table;margin:0 auto;
+}
+.produkt
+{
+    width:250px;
+    float: left;
+    border:1px solid #fff;
+    background-color: #eee;
+}
+.produkt .nazwa >h3
+{
+    background:#2a2a2a;
+    padding: 10px;
+    text-align: center;
+    color:#fff;
+    text-shadow: 0 0 3px #000;
+}
+.produkt .cena
+{
+    width: 125px;
+    height: 100px;
+    border-radius: 60px;
+    background-color: #fff;
+    text-align: center;
+    line-height: 100px;
+    border: 10px solid silver;
+    box-shadow: 3px 3px 5px gray inset 0 0 1px black;
+    font-size: 2em;
+    margin: 0 auto;
+}
+.produkt .opis
+{
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 20px;
+    border-top: 1px dashed silver;
+    border-bottom: 1px dashed silver;
+    color:#000;
+    font-size: 0.9em;
+    text-align: center;
+}
+.produkt .opis li{padding: 5px;}
+.produkt .opis li:nth-child(odd)
+{
+    background-color: silver;
+}
+.produkt .opis li:nth-child(even)
+{
+    background-color: #eee;
+}
