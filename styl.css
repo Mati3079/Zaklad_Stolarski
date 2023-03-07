@@ -1,6 +1,7 @@
 body
 {
-    background: url(bg.jpg); 
+    background: url(tes.jpg);
+    font-family: Helvetica;
 }
 .banner
 {
@@ -16,6 +17,14 @@ body
 {
     position:absolute;
     top:300px;
+    bottom: auto;
+    left: 300px;
+    right: auto;
+}
+.main1
+{
+    position:absolute;
+    top:200px;
     bottom: auto;
     left: 300px;
     right: auto;
@@ -126,7 +135,7 @@ body
   #flyoutMenu {
     width: 100vw;
     height: 100vh;
-    background: url(bg.jpg);
+    background: url(drewnobg.jpg) repeat-y;
     position: fixed;
     top: 0;
     left: 0;
@@ -148,12 +157,32 @@ body
 #flyoutMenu.show {
     transform: translate3d(0vw, 0, 0);
 }
+.one
+{
+    border: 1px solid silver;
+    border-radius: 20px;
+}
+.two
+{
+    border: 1px solid silver;
+    border-radius: 20px;
+}
 .foot
 {
     clear: both;
     position: absolute;
     left:750px;
     top:890px;
+    bottom: auto;
+    text-align: center;
+    font-size:2em;
+}
+.foot1
+{
+    clear: both;
+    position: absolute;
+    left:750px;
+    top: 1790px;
     bottom: auto;
     text-align: center;
     font-size:2em;
