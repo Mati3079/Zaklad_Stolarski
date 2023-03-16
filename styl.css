@@ -187,3 +187,23 @@ body
     text-align: center;
     font-size:2em;
 }
+.form_row
+{
+    font-size: 25px;
+    color: #fff;
+    background-color: #2a2a2a;
+    width: 200px;
+    border: 1px solid #2a2a2a;
+    border-radius: 20px;
+    font-family:sans-serif;
+}
+input
+{
+    width: 200px;
+    height: 20px;
+    
+    background-color:#2a2a2a;
+    color: #eee;
+    border: 1px solid #2a2a2a;
+    border-radius: 30px;
+}
