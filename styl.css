@@ -11,7 +11,7 @@ body
     top:auto;
     right: auto;
     color: darkred;
-    font-size: 20px;
+    font-size: 32px;
 }
 .main
 {
@@ -171,7 +171,7 @@ body
 {
     clear: both;
     position: absolute;
-    left:750px;
+    left:650px;
     top:890px;
     bottom: auto;
     text-align: center;
@@ -192,18 +192,27 @@ body
     font-size: 25px;
     color: #fff;
     background-color: #2a2a2a;
-    width: 200px;
+    width: 400px;
     border: 1px solid #2a2a2a;
     border-radius: 20px;
     font-family:sans-serif;
 }
 input
 {
-    width: 200px;
+    width: 400px;
     height: 20px;
-    float:left;
     background-color:#2a2a2a;
     color: #eee;
     border: 1px solid #2a2a2a;
     border-radius: 30px;
+}
+.foot2
+{
+    clear: both;
+    position: absolute;
+    left:750px;
+    top: 990px;
+    bottom: auto;
+    text-align: center;
+    font-size:2em;
 }

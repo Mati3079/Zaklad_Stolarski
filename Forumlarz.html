@@ -2,7 +2,7 @@
 <html lang="pl-PL">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="initial-scale=0.9" />
     <title>Zakład Stolarski</title>
     <link rel="stylesheet" href="styl.css" />
     <link rel="shortcut icon" href="icona.jpg" type="image/x-icon">
@@ -24,15 +24,16 @@
 <section class="main">
         <h1>Chcesz Zamówić Usługę Skorzysataj z Poniszego Formularza:</h1>
         <br>
-        <form>
-            <div class="form_row">Imię </p><input type="text" placeholder="Podaj swoje imię!">
-            <div class="form_row">Nazwisko</p> <input type="text" placeholder="Podaj swoje nazwisko!">
-            <div class="form_row">Numer Telefonu</p>  <input type="number" placeholder="Podaj swój numer!">
-           <div class="form_row"> Adres E-mail</p> <input type="email" placeholder="Podaj swój adres e-mail!"><br>
-            <input type="reset" value="Wyczyść" id="reset"> <input type="button" value="Wyślij" id="button">
+        <form action="index.php" method="post">
+            <p class="form_row">Imię </p><input type="text" placeholder="Podaj swoje imię!" name="imie">
+            <p class="form_row">Nazwisko</p> <input type="text" placeholder="Podaj swoje nazwisko!" name="nazwisko">
+            <p  class="form_row">Numer Telefonu</p>  <input type="number" placeholder="Podaj swój numer!" name="Nr">
+           <p class="form_row"> Adres E-mail</p> <input type="email" placeholder="Podaj swój adres e-mail!" name="Adres">
+           <p class="form_row">Nazwa Usługi</p> <input type="text" placeholder="Podaj Jaką Usługę Chcesz Zamówić" name="Usluga"><br><br>
+            <input type="reset" value="Wyczyść" id="reset"> <input type="submit" value="Wyślij" id="button">
         </form>
 </section>
-<section class="foot">
+<section class="foot2">
     <p><a href="https://www.github.com/Mati3079">Mateusz Cieśla</a></p>
 </section>
 <script>
